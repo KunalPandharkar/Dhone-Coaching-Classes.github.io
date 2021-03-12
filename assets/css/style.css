@@ -655,8 +655,14 @@ section {
 #call-to-action .cta-text {
     color: #fff;
     font-size: 14px;
+   
 }
-
+#call-to-action .cta-text1 {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom:7px;
+   
+}
 @media (min-width: 991px) {
     #call-to-action .cta-btn-container {
         display: flex;
