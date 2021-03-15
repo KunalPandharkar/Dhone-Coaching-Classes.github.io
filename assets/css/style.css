@@ -5,7 +5,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -22,9 +21,7 @@ a {
     transition: 0.5s;
 }
 
-a:hover,
-a:active,
-a:focus {
+a:hover, a:active, a:focus {
     color: #0a98c0;
     outline: none;
     text-decoration: none;
@@ -35,19 +32,13 @@ p {
     margin: 0 0 30px 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
     line-height: 1.3;
 }
-
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -83,7 +74,6 @@ h6 {
     opacity: 1;
 }
 
-
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -93,7 +83,6 @@ h6 {
         transition-delay: 0 !important;
     }
 }
-
 
 /*--------------------------------------------------------------
 # Header
@@ -168,11 +157,9 @@ h6 {
     }
 }
 
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-
 
 /**
 * Desktop Navigation 
@@ -214,9 +201,7 @@ h6 {
     margin-left: 5px;
 }
 
-.navbar a:hover,
-.navbar .active,
-.navbar li:hover>a {
+.navbar a:hover, .navbar .active, .navbar li:hover>a {
     color: #1bb1dc;
 }
 
@@ -249,9 +234,7 @@ h6 {
     font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover>a {
     color: #1bb1dc;
 }
 
@@ -282,7 +265,6 @@ h6 {
         left: -100%;
     }
 }
-
 
 /**
 * Mobile Navigation 
@@ -347,9 +329,7 @@ h6 {
     color: #413e66;
 }
 
-.navbar-mobile a:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover>a {
     color: #1bb1dc;
 }
 
@@ -381,16 +361,13 @@ h6 {
     font-size: 12px;
 }
 
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover>a {
     color: #1bb1dc;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
     display: block;
 }
-
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -449,8 +426,7 @@ h6 {
     }
 }
 
-#hero .intro-info .btn-get-started,
-#hero .intro-info .btn-services {
+#hero .intro-info .btn-get-started, #hero .intro-info .btn-services {
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     font-weight: 600;
@@ -465,11 +441,9 @@ h6 {
     color: #fff;
 }
 
-#hero .intro-info .btn-get-started:hover,
-#hero .intro-info .btn-services:hover {
+#hero .intro-info .btn-get-started:hover, #hero .intro-info .btn-services:hover {
     background: #0a98c0;
 }
-
 
 /*--------------------------------------------------------------
 # Sections
@@ -478,7 +452,6 @@ h6 {
 section {
     overflow: hidden;
 }
-
 
 /* Sections Header
 --------------------------------*/
@@ -507,14 +480,12 @@ section {
     }
 }
 
-
 /* Section with background
 --------------------------------*/
 
 .section-bg {
     background: #f5f8fd;
 }
-
 
 /* Services Section
 --------------------------------*/
@@ -574,7 +545,6 @@ section {
     margin-bottom: 0;
     text-align: center;
 }
-
 
 /* Why Us Section
 --------------------------------*/
@@ -636,7 +606,6 @@ section {
     color: #8a87b6;
 }
 
-
 /* Call To Action Section
 --------------------------------*/
 
@@ -655,14 +624,14 @@ section {
 #call-to-action .cta-text {
     color: #fff;
     font-size: 14px;
-   
 }
+
 #call-to-action .cta-text1 {
     color: #fff;
     font-size: 14px;
-    margin-bottom:7px;
-   
+    margin-bottom: 7px;
 }
+
 @media (min-width: 991px) {
     #call-to-action .cta-btn-container {
         display: flex;
@@ -690,10 +659,8 @@ section {
     border: 3px solid #1bb1dc;
 }
 
-
 /* Portfolio Section
 --------------------------------*/
-
 
 /* 
 #portfolio {
@@ -824,7 +791,6 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 
-
 /* 
 .portfolio-details {
   padding-top: 40px;
@@ -888,7 +854,6 @@ section {
   padding: 0;
 }  */
 
-
 /* Testimonials Section
 --------------------------------*/
 
@@ -949,9 +914,7 @@ section {
 }
 
 @media (max-width: 767px) {
-    #testimonials .testimonial-item h3,
-    #testimonials .testimonial-item h4,
-    #testimonials .testimonial-item p {
+    #testimonials .testimonial-item h3, #testimonials .testimonial-item h4, #testimonials .testimonial-item p {
         margin-left: 0;
     }
 }
@@ -972,7 +935,6 @@ section {
 #testimonials .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #1bb1dc;
 }
-
 
 /* Clients Section
 --------------------------------*/
@@ -1007,7 +969,6 @@ section {
 #clients .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #1bb1dc;
 }
-
 
 /* Frequently Asked Questions Section
 --------------------------------*/
@@ -1076,7 +1037,6 @@ section {
     transition: 0.6s;
 }
 
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -1113,7 +1073,6 @@ section {
     color: #555186;
     content: "/";
 }
-
 
 /*--------------------------------------------------------------
 # Footer
@@ -1307,16 +1266,14 @@ section {
     animation: animate-loading 1s linear infinite;
 }
 
-#footer .php-email-form input,
-#footer .php-email-form textarea {
+#footer .php-email-form input, #footer .php-email-form textarea {
     border-radius: 0;
     box-shadow: none;
     border: 1px solid #dce1ec;
     font-size: 14px;
 }
 
-#footer .php-email-form input:focus,
-#footer .php-email-form textarea:focus {
+#footer .php-email-form input:focus, #footer .php-email-form textarea:focus {
     border-color: #1bb1dc;
 }
 
@@ -1382,7 +1339,6 @@ section {
     color: #0a98c0;
 }
 
-
 /* Portfolio Section
 --------------------------------*/
 
@@ -1409,8 +1365,7 @@ section {
     transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
+#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
     color: #1bb1dc;
 }
 
@@ -1475,8 +1430,7 @@ section {
     text-transform: uppercase;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
     display: inline-block;
     line-height: 1;
     text-align: center;
@@ -1490,20 +1444,17 @@ section {
     justify-content: center;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
     font-size: 22px;
     color: #fff;
     line-height: 0;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
     background: #42c3e8;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
     color: #fff;
 }
 
@@ -1515,7 +1466,6 @@ section {
     opacity: 1;
 }
 
-
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1525,7 +1475,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-    width: 100%;
+    width: 80%;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
