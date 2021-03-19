@@ -1,14 +1,3 @@
-/**
-* Template Name: Rapid - v4.0.1
-* Template URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
 body {
     background: #fff;
     color: #444;
@@ -1550,4 +1539,10 @@ section {
 
 #discussbtn:hover {
     background: #0a98c0;
+}
+
+@media (max-width: 768px) {
+    .contactimg {
+        display: none;
+    }
 }
